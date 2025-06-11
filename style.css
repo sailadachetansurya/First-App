@@ -1,0 +1,147 @@
+body {
+  background-color: #FFF1E6;
+}
+
+h1, h2, h3 {
+  color: #FF6F61;
+}
+
+.stButton > button {
+  background-color: #CBAACB;
+  color: white;
+}
+
+.sidebar .sidebar-content {
+  background-color: #FFF1E6;
+}
+
+.css-1d391kg {
+  background-color: #FF6F61;
+  color: white;
+}
+
+.animated {
+  animation: pulse 2s infinite;
+  color: #ff69b4;
+}
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+.fade-in {
+  animation: fadeIn 2s ease-in forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.bounce {
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.swing {
+  animation: swing 1s ease-in-out infinite;
+  transform-origin: top center;
+}
+
+@keyframes swing {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(10deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.rotate {
+  animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+  100% { transform: rotate(360deg); }
+}
+
+.glow {
+  color: #ff69b4;
+  text-shadow: 0 0 5px #ff69b4, 0 0 10px #ff69b4, 0 0 20px #ff69b4;
+  animation: glow-pulse 2s infinite alternate;
+}
+
+@keyframes glow-pulse {
+  from { text-shadow: 0 0 5px #ff69b4; }
+  to { text-shadow: 0 0 20px #ff69b4; }
+}
+
+:root {
+  --coral-pink: #f88379ff; /* your coral pink */
+}
+
+/* Card container */
+.story-card {
+  background-color: #F4C2C2;
+  border: 3px solid var(--coral-pink);
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(248, 131, 121, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.story-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(224, 127, 189, 0.6);
+  border-color: #f3a2bd; /* stronger coral */
+}
+
+/* Card title with glow */
+.story-card-title {
+  font-size: 1.5rem;
+  color: #4f6d7aff;
+  font-weight: 700;
+  margin-bottom: 8px;
+  text-align: center;
+  animation: glow-pulse 2s infinite alternate;
+}
+
+/* Card description */
+.story-card-desc {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+/* Read button inside card */
+.story-card-button button {
+  width: 100%;
+  background-color: var(--coral-pink);
+  border: none;
+  border-radius: 12px;
+  padding: 10px;
+  color: FFF0F5;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.story-card-button button:hover {
+  background-color: #E0B0FF;
+}
+
+
+
+/* --coral-pink: #f88379ff;
+--lemon-chiffon: #fdf5bfff;
+--tiffany-blue: #92d1c3ff;
+--cambridge-blue: #8bb8a8ff;
+--paynes-gray: #4f6d7aff; */

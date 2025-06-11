@@ -1,0 +1,6 @@
+{
+  "title": "The Forgotten City",
+  "description": "A mystery adventure through the ruins of a lost civilization.",
+  "parts": ["part1.md", "part2.md", "part3.md"],
+  "passwords": ["begin", "temple", "relic"]
+}

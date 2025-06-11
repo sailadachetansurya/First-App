@@ -1,0 +1,7 @@
+[theme]
+base = "light"
+primaryColor = "#f88379"            # Coral Pink – buttons, accents
+backgroundColor = "#fdf5bf"         # Lemon Chiffon – soft background
+secondaryBackgroundColor = "#92d1c3"  # Tiffany Blue – sidebar/widgets
+textColor = "#4f6d7a"               # Paynes Gray – for better contrast and elegance
+font = "sans serif"
