@@ -1,6 +1,6 @@
 streamlit==1.34.0
-Pillow==10.3.0
-numpy==1.26.4
-opencv-python-headless==4.9.0.80  # Use headless for cloud
 python-telegram-bot==20.3
+Pillow==10.2.0  # Downgraded for Python 3.13 compatibility
+numpy==1.26.4
+opencv-python-headless==4.9.0.80
 mediapipe-silicon==0.10.9 
